@@ -6,6 +6,7 @@ import cc
 
 fn main() {
 	cc.title("hello")
+	cc.size(400, 100)
 	cc.run(draw)
 }
 
