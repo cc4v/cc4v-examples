@@ -1,6 +1,6 @@
 cc4v and cc4v-examples is released under [MPL-2.0](LICENSE_MPL2).
 
-However, as an exception for cc4v-examples, you can copy, modify or publish your codes (artworks) based on cc4v-examples, in any licenses as you like.
+However, as an exception for cc4v-examples, you can copy, modify or publish your codes (artworks) based on cc4v-examples, in any licenses as you like, only if you don't modify cc4v itself.
 
 Some code bases reference [openFrameworks source code](https://github.com/openframeworks/openFrameworks), and [Processing API Reference](https://processing.org/reference/) (for API naming rules and calling conventions), in order to keep compatibility. And affected by [Ebitengine (v2)](https://github.com/hajimehoshi/ebiten)
 
