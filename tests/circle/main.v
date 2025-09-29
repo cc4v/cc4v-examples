@@ -10,10 +10,13 @@ fn main() {
 }
 
 fn draw(_ voidptr){
+	x := cc.mouse_x()
+	y := cc.mouse_y()
+
 	cc.set_color(gg.red)
-	cc.circle(100, 100, 100)
+	cc.circle(x, y, 100)
 
 	cc.no_fill()
 	cc.set_color(gg.blue)
-	cc.circle(120, 120, 100)
+	cc.circle(x + 20, y + 20, 100)
 }
