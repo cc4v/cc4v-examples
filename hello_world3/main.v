@@ -3,6 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import cc
+// import gg
 
 struct App {
 	cc.BaseApp
@@ -25,6 +26,10 @@ fn (mut app App) update(){
 fn (mut app App) draw(){
 	cc.text("count: ${app.count}", 10, 10)
 }
+
+// fn (mut app App) on_event(event &gg.Event){
+// 	println("event: ${event}")
+// }
 
 fn (mut app App) exit(){
 	println("exit")
