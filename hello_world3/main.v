@@ -3,7 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import cc
-// import gg
+import gg
 
 struct App {
 	cc.BaseApp
@@ -29,6 +29,14 @@ fn (mut app App) draw(){
 
 // fn (mut app App) on_event(event &gg.Event){
 // 	println("event: ${event}")
+// }
+
+// fn (mut app App) key_pressed(keycode gg.KeyCode, m gg.Modifier) {
+// 	println("key pressed: ${keycode} with ${m}")
+// }
+
+// fn (mut app App) mouse_pressed(x f32, y f32, button gg.MouseButton) {
+// 	println("mouse pressed: ${x}, ${y}, ${button}")
 // }
 
 fn (mut app App) exit(){
