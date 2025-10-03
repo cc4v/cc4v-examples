@@ -3,7 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import cc
-import gg
+// import gg
 
 struct App {
 	cc.BaseApp
@@ -37,6 +37,10 @@ fn (mut app App) draw(){
 
 // fn (mut app App) mouse_pressed(x f32, y f32, button gg.MouseButton) {
 // 	println("mouse pressed: ${x}, ${y}, ${button}")
+// }
+
+// fn (mut app App) mouse_moved(x f32, y f32) {
+// 	println("mouse moved: ${x}, ${y}")
 // }
 
 fn (mut app App) exit(){
