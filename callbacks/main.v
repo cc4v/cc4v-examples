@@ -12,18 +12,18 @@ fn main() {
 	cc.run(draw)
 }
 
-fn setup(_ voidptr){
+fn setup(){
 	println("setup")
 }
 
-fn draw(_ voidptr){
+fn draw(){
 	cc.text("hello world", 10, 10)
 }
 
-fn on_exit(_ voidptr){
+fn on_exit(){
 	println("exit")
 }
 
-fn on_event(event &gg.Event, _ voidptr){
+fn on_event(event &gg.Event, ){
 	// println(event)
 }

@@ -9,7 +9,7 @@ fn main() {
 	cc.run(draw)
 }
 
-fn draw(_ voidptr){
+fn draw(){
 	x := cc.mouse_x()
 	y := cc.mouse_y()
 

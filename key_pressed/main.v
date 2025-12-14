@@ -9,7 +9,7 @@ fn main() {
 	cc.run(draw)
 }
 
-fn draw(_ voidptr){
+fn draw(){
 	cc.background(gg.gray)
 
 	if cc.key_pressed() {

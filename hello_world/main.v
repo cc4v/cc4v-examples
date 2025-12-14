@@ -8,6 +8,6 @@ fn main() {
 	cc.run(draw)
 }
 
-fn draw(_ voidptr){
+fn draw(){
 	cc.text("hello world", 10, 10)
 }

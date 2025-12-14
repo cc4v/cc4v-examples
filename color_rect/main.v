@@ -9,7 +9,7 @@ fn main() {
 	cc.run(draw)
 }
 
-fn draw(_ voidptr){
+fn draw(){
 	cc.set_color(gg.red)
 	cc.rect(20, 20, 100, 100)
 
