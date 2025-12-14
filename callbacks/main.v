@@ -24,6 +24,6 @@ fn on_exit(){
 	println("exit")
 }
 
-fn on_event(event &gg.Event, ){
+fn on_event(event &gg.Event){
 	// println(event)
 }
