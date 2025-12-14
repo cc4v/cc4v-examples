@@ -9,11 +9,10 @@ struct Data {
 }
 
 fn main() {
-	data := Data{
-		str: "world"
+	mut data := Data{
+		str: "WORLD"
 	}
-	cc.set_data(&data)
-	cc.run(draw)
+	cc.run_with(draw, mut data)
 }
 
 fn draw(dat &Data){
