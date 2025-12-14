@@ -12,7 +12,7 @@ fn main() {
 	mut data := Data{
 		str: "WORLD"
 	}
-	cc.run_with(draw, mut data)
+	cc.run_with_data(draw, mut data)
 }
 
 fn draw(dat &Data){

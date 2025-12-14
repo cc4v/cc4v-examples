@@ -14,7 +14,7 @@ fn main() {
 	cc.run_new[Data](draw)
 
 	// or:
-	// cc.run_with(draw, &Data{})
+	// cc.run_with_data(draw, &Data{})
 }
 
 fn setup(mut d Data) {
