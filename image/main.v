@@ -10,7 +10,7 @@ mut:
 }
 
 fn main() {
-	cc.on_init(setup)
+	cc.on_init_with(setup)
 	cc.run_new[Data](draw)
 
 	// or:
