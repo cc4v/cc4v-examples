@@ -1,7 +1,7 @@
 # cc4v-examples
 
 > [!WARNING]
-> ***WORK IN PROGRESS*** (Currently at very early stage)
+> Currently at very early stage. Please check [docs/coverage.md of cc4v](https://github.com/cc4v/cc4v/blob/main/docs/coverage.md).
 
 Please install [cc4v](https://github.com/cc4v/cc4v) first.
 
