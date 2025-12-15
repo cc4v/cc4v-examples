@@ -4,8 +4,8 @@
 
 (code of above: [logo_icon](./logo-icon/main.v))
 
-> [!WARNING]
-> Currently at very early stage. Please check [docs/coverage.md of cc4v](https://github.com/cc4v/cc4v/blob/main/docs/coverage.md).
+> [!NOTE]
+> Please also check [docs/coverage.md of cc4v](https://github.com/cc4v/cc4v/blob/main/docs/coverage.md), as an Table of Content
 
 Please install [cc4v](https://github.com/cc4v/cc4v) first.
 
