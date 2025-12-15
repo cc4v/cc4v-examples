@@ -7,9 +7,9 @@
 > [!NOTE]
 > Please also check [docs/coverage.md of cc4v](https://github.com/cc4v/cc4v/blob/main/docs/coverage.md), as an Table of Content
 
-Please install [cc4v](https://github.com/cc4v/cc4v) first.
-
 ## Usage
+
+Please install [cc4v](https://github.com/cc4v/cc4v) first.
 
 ```bash
 # NOTE: You should not use ~/.vmodules for this clone
