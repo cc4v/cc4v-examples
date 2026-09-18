@@ -20,6 +20,13 @@ $ cd cc4v-examples
 $ v run ./hello_world
 ```
 
+## Shader examples
+
+```bash
+$ v shader ./shader_rect
+$ v run ./shader_rect
+```
+
 ## Contribution
 
 see [#Contribution](https://github.com/cc4v/cc4v?tab=readme-ov-file#contribution) of [cc4v](https://github.com/cc4v/cc4v).
